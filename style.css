@@ -57,7 +57,7 @@ body {
   background: transparent;
   border: 5px solid white;
   animation: emphasis 1s infinite;
-  box-shadow: 0 0 30px #3498db;
+  box-shadow: 0 0 30px #fff;
 }
 
 @keyframes emphasis {
