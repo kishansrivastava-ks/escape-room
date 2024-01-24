@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cinzel", serif;
   scroll-behavior: smooth;
 }
 body {
@@ -12,4 +12,16 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 5rem;
+  text-wrap: wrap;
+  letter-spacing: 5px;
 }
