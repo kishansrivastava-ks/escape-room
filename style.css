@@ -29,7 +29,7 @@ body {
   padding: 2rem 0;
   text-align: center;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 5px;
   text-shadow: 5px 5px 10px #fff;
 }
@@ -43,6 +43,7 @@ body {
   text-shadow: 5px 5px 10px #fff;
 }
 .ques {
+  font-family: "Creepster", system-ui;
   margin-bottom: 2rem;
   margin-right: 2rem;
   max-width: 5%;
