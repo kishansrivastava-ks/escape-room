@@ -33,7 +33,13 @@ body {
   letter-spacing: 5px;
   text-shadow: 5px 5px 10px #fff;
 }
+.header span {
+  font-size: 1.2rem;
+  text-shadow: 5px 5px 10px #fff;
+  font-weight: 500;
+}
 .main {
+  padding: 0 1rem;
   align-self: center;
   text-align: center;
   font-weight: 500;
