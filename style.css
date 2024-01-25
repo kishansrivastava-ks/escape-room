@@ -25,20 +25,26 @@ body {
   align-items: center; */
 }
 .header {
+  /* margin-top: 2rem; */
+  transform: translateY(3rem);
   /* height: 4rem; */
   padding: 2rem 0;
   text-align: center;
   font-weight: 500;
   font-size: 3rem;
   letter-spacing: 5px;
-  text-shadow: 5px 5px 10px #fff;
+  /* text-shadow: 5px 5px 10px #fff; */
+  text-shadow: 5px 5px 10px #b89163;
 }
 .header span {
   font-size: 1.2rem;
-  text-shadow: 5px 5px 10px #fff;
+  /* text-shadow: 5px 5px 10px #fff; */
+  text-shadow: 5px 5px 10px #b89163;
+
   font-weight: 500;
 }
 .main {
+  transform: translateY(8rem);
   padding: 0 1rem;
   align-self: center;
   text-align: center;
@@ -46,15 +52,15 @@ body {
   font-size: 2rem;
   text-wrap: wrap;
   letter-spacing: 5px;
-  text-shadow: 5px 5px 10px #fff;
+  text-shadow: 5px 5px 10px #b89163;
 }
 .ques {
   font-family: "Creepster", system-ui;
   margin-bottom: 2rem;
-  margin-right: 2rem;
-  max-width: 5%;
+  /* margin-right: 2rem; */
+  /* max-width: 5%; */
   align-self: center;
-  justify-self: right;
+  justify-self: center;
   font-size: 3rem;
   background-color: white;
   color: white;
@@ -78,4 +84,15 @@ body {
   100% {
     transform: scale(1);
   }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.5px);
+  z-index: -5;
+  transition: all 0.5s;
 }
