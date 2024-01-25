@@ -44,7 +44,7 @@ body {
   font-weight: 500;
 }
 .main {
-  transform: translateY(8rem);
+  transform: translateY(5rem);
   padding: 0 1rem;
   align-self: center;
   text-align: center;
