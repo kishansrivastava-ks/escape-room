@@ -14,6 +14,14 @@ body {
   position: relative;
   /* overflow: hidden; */
 }
+.logo {
+  opacity: 0.87;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4rem;
+}
 .app {
   /* margin: 2rem 0rem; */
   display: grid;
@@ -25,6 +33,8 @@ body {
   align-items: center; */
 }
 .header {
+  margin-top: 15px;
+  line-height: 1;
   /* margin-top: 2rem; */
   transform: translateY(3rem);
   /* height: 4rem; */
