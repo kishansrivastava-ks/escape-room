@@ -59,10 +59,11 @@ body {
   align-self: center;
   text-align: center;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-wrap: wrap;
   letter-spacing: 5px;
   text-shadow: 5px 5px 10px #b89163;
+  line-height: 1;
 }
 .ques {
   font-family: "Creepster", system-ui;
@@ -71,7 +72,7 @@ body {
   /* max-width: 5%; */
   align-self: center;
   justify-self: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   /* background-color: white; */
   color: white;
   padding: 0.6rem 1.8rem;
