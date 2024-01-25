@@ -50,7 +50,7 @@ body {
   font-size: 1.2rem;
   /* text-shadow: 5px 5px 10px #fff; */
   text-shadow: 5px 5px 10px #b89163;
-
+  letter-spacing: 1px;
   font-weight: 500;
 }
 .main {
@@ -72,14 +72,16 @@ body {
   align-self: center;
   justify-self: center;
   font-size: 3rem;
-  background-color: white;
+  /* background-color: white; */
   color: white;
   padding: 0.6rem 1.8rem;
   border-radius: 50%;
   background: transparent;
-  border: 5px solid white;
+  border: 5px solid #9c0b0a;
   animation: emphasis 1s infinite;
+  /* box-shadow: 0 0 30px #fff; */
   box-shadow: 0 0 30px #fff;
+  opacity: 0.9;
   text-decoration: none;
   cursor: pointer;
 }

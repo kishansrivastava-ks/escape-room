@@ -1,7 +1,7 @@
 const phrase = [
   "Solve, Unlock, Escape - The Ultimate Challenge Awaits",
   "Crack the Code, Break the Chains",
-  "In Every clue's embbrace, find your Escape's Trace",
+  "In Every clue's embrace, find your Escape's Trace",
   "Escaped or not, gratitude unfolds",
   "Escaped or not, Thanks a lot",
 ];
