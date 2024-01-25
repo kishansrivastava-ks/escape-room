@@ -64,6 +64,8 @@ body {
   border: 5px solid white;
   animation: emphasis 1s infinite;
   box-shadow: 0 0 30px #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @keyframes emphasis {
