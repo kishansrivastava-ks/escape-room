@@ -7,8 +7,8 @@ const phrase = [
 ];
 
 document.body.style.backgroundImage = `url('img/image-${
-  Math.floor(Math.random() * (5 - 1 + 1)) + 1
+  Math.floor(Math.random() * (4 - 0 + 1)) + 0
 }.jpg')`;
 
 const text = document.querySelector(".main");
-text.textContent = phrase[Math.floor(Math.random() * (5 - 1 + 1)) + 1];
+text.textContent = phrase[Math.floor(Math.random() * (4 - 0 + 1)) + 0];
